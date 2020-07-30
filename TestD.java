@@ -1,5 +1,7 @@
 package com
 
 public class D{
-    int a = 0;
+    public static void main(String[] args){
+
+    }
 }
