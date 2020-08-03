@@ -2,6 +2,6 @@ package com
 
 public class D{
     public static void main(String[] args){
-        int a = 0;
+        int d = 0;
     }
 }
