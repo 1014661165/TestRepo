@@ -1,7 +1,7 @@
 package com
 
-public class C{
+public class B{
     public static void main(String[] args){
-        int c = 0;
+        int b = 0;
     }
 }
