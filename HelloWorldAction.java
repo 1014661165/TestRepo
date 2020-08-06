@@ -9,8 +9,6 @@ import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.psi.*;
 import com.intellij.psi.search.FilenameIndex;
-import com.intellij.psi.search.GlobalSearchScope;
-
 import java.util.Collection;
 import java.util.Iterator;
 
