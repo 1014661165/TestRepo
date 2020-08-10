@@ -33,12 +33,8 @@ public class HelloWorldAction extends AnAction {
                 for (PsiMethod psiMethod: psiMethods){
                     String methodName = psiMethod.getName();
                     String methodText = psiMethod.getBody().getText();
-                    System.out.println("-------------------");
                     int startLine = document.getLineNumber(psiMethod.getBody().getLBrace().getTextOffset()) + 1;
                     int endLine = document.getLineNumber(psiMethod.getBody().getRBrace().getTextOffset()) + 1;
-
-                    System.out.println(methodName + "-" + startLine + "," + endLine);
-                    System.out.println(methodText);
                 }
             }
         }
