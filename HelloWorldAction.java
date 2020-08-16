@@ -56,8 +56,4 @@ public class HelloWorldAction extends AnAction {
         //显示对话框
         Messages.showMessageDialog(project, msg, title, Messages.getInformationIcon());
     }
-
-    public int add(int a,int b){
-        return a + b;
-    }
 }
