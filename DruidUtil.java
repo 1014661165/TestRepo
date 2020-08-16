@@ -59,4 +59,8 @@ public class DruidUtil {
         }
     }
 
+    public int add(int a,int b){
+        return a + b;
+    }
+
 }
